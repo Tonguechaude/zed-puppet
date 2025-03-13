@@ -1,0 +1,6 @@
+name = "Puppet"
+grammar = "puppet"
+path_suffixes = ["pp", "epp"]
+line_comments = ["# ", "#"]
+tab_size = 2
+hard_tabs = false

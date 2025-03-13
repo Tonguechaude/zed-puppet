@@ -5,3 +5,7 @@ schema_version = 1
 authors = ["Alexandar Yovchev <alexyov@protonmail.com>"]
 description = "Extension for Puppet language support"
 repository = "https://github.com/AlexandarY/zed-puppet"
+
+[grammars.puppet]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-puppet"
+rev = "15f192929b7d317f5914de2b4accd37b349182a6"
