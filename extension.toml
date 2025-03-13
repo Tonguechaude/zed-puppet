@@ -1,0 +1,7 @@
+id = "puppet"
+name = "Puppet"
+version = "0.0.1"
+schema_version = 1
+authors = ["Alexandar Yovchev <alexyov@protonmail.com>"]
+description = "Extension for Puppet language support"
+repository = "https://github.com/AlexandarY/zed-puppet"
