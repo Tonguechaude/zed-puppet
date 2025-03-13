@@ -2,10 +2,6 @@
 
 (identifier) @variable
 
-; Includes
-
-"include" @include
-
 (include_statement (identifier) @type)
 
 (include_statement (class_identifier (identifier) @type . ))
@@ -13,25 +9,23 @@
 ; Keywords
 
 [
+  "case"
   "class"
+  "else"
+  "elsif"
+  "if"
   "inherits"
+  "include"
   "node"
   "type"
   "tag"
+  "unless"
 ] @keyword
 
 [
   "define"
   "function"
 ] @keyword.function
-
-[
-  "if"
-  "elsif"
-  "else"
-  "unless"
-  "case"
-] @conditional
 
 (default_case "default" @conditional)
 
