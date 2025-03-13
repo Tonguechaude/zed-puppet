@@ -1,0 +1,17 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.2.0.json",
+  "name": "Puppet Icons",
+  "author": "Alexandar Yovchev",
+  "themes": [
+    {
+      "name": "Puppet Icons",
+      "appearance": "dark",
+      "file_suffixes": {
+        "pp": "puppet"
+      },
+      "file_icons": {
+	"puppet": { "path": "./icons/puppet.svg" }
+      }
+    }
+  ]
+}
