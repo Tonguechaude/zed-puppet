@@ -10,6 +10,6 @@ repository = "https://github.com/AlexandarY/zed-puppet"
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-puppet"
 rev = "15f192929b7d317f5914de2b4accd37b349182a6"
 
-[language_servers.puppet]
-name = "puppet_editor_service"
+[language_servers.puppet-editor-services]
+name = "puppet editor service"
 languages = ["Puppet"]

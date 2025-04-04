@@ -1,10 +1,10 @@
 [package]
 name = "zed-puppet-lsp"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
-path = "src/lib.rs"
+path = "src/puppet.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
