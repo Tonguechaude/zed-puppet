@@ -1,0 +1,12 @@
+[package]
+name = "zed-puppet-lsp"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+dirs = "6.0.0"
+zed_extension_api = "0.3.0"
