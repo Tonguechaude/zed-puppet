@@ -38,6 +38,27 @@ section add the following:
 }
 ```
 
+```
+"lsp": {
+  "puppet-languageserver": {
+    "binary": {
+      "path": "/opt/puppet-editor-services/puppet-languageserver",
+      "arguments": [
+        "--stdio",
+        "--no-cache",
+        "--puppet-settings=--environment,production"
+      ]
+    },
+    "settings": {
+      "puppet": {
+        "modulePath": "./modules:./site-modules",
+        "environment": "development"
+      }
+    }
+  },
+}
+```
+
 The `puppet-settings` expects comma separated list of cli flags. Full list of config options can be found [here](https://www.puppet.com/docs/puppet/7/configuration.html).
 
 ## Additional info

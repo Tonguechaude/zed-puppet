@@ -9,18 +9,21 @@
 ; Keywords
 
 [
-  "case"
   "class"
-  "else"
-  "elsif"
-  "if"
   "inherits"
   "include"
   "node"
   "type"
   "tag"
-  "unless"
 ] @keyword
+
+[
+  "if"
+  "elsif"
+  "else"
+  "unless"
+  "case"
+] @conditional
 
 [
   "define"

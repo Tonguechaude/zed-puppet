@@ -1,6 +1,6 @@
 [package]
 name = "zed-puppet-lsp"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 
 [lib]
@@ -9,4 +9,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 dirs = "6.0.0"
-zed_extension_api = "0.3.0"
+zed_extension_api = "0.6.0"

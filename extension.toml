@@ -1,6 +1,6 @@
 id = "puppet"
 name = "Puppet"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Alexandar Yovchev <alexyov@protonmail.com>"]
 description = "Extension for Puppet language support"
@@ -10,6 +10,7 @@ repository = "https://github.com/AlexandarY/zed-puppet"
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-puppet"
 rev = "15f192929b7d317f5914de2b4accd37b349182a6"
 
-[language_servers.puppet-editor-services]
-name = "puppet editor service"
+[language_servers.puppet-languageserver]
+name = "puppet-languageserver"
 languages = ["Puppet"]
+
