@@ -1,4 +1,4 @@
-use zed_extension_api::{self as zed, Result, Worktree, settings::LspSettings};
+use zed_extension_api::{self as zed, Result, settings::LspSettings};
 
 const PUPPET_LANGUAGE_SERVER_NAME: &str = "puppet-languageserver";
 
