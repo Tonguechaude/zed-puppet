@@ -4,3 +4,7 @@ path_suffixes = ["pp", "epp"]
 line_comments = ["# ", "#"]
 tab_size = 2
 hard_tabs = false
+
+[language-server]
+command = ["puppet-languageserver", "--stdio"]
+language-id = "puppet"
