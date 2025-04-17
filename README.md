@@ -45,3 +45,7 @@ section add the following:
 ```
 
 The `puppet-settings` expects comma separated list of cli flags. Full list of config options can be found [here](https://www.puppet.com/docs/puppet/7/configuration.html).
+
+## Additional info
+
+The tree sitter parser is based on [tree-sitter-puppet](https://github.com/tree-sitter-grammars/tree-sitter-puppet), licensed under the MIT license.
