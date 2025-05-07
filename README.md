@@ -8,13 +8,7 @@ Puppet language extension for the Zed editor that provides support for:
 
 ## How to install?
 
-At the moment the extension is not available via the official Zed Extensions page, so you need to do the following:
-
- 1. Clone the git repository somewhere locally `git clone git@github.com:AlexandarY/zed-puppet.git`
- 2. Install the extension as a "Dev extension". (Go to Zed -> Extensions. Option is at the top right).
-
-__NOTE: It is required that rust is available on your system to compile the module!__
-
+Current stable version can be installed through the Zed Editor -> Extensions.
 
 ## Using Puppet LSP (Puppet Editor Services)
 
@@ -49,3 +43,7 @@ The `puppet-settings` expects comma separated list of cli flags. Full list of co
 ## Additional info
 
 The tree sitter parser is based on [tree-sitter-puppet](https://github.com/tree-sitter-grammars/tree-sitter-puppet), licensed under the MIT license.
+
+## Development
+
+To setup a local dev environment, you will need to have installed.
