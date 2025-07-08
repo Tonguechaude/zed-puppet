@@ -8,23 +8,11 @@
   (case_statement)
   (hash)
   (array)
-] @indent.begin
+] @indent
 
 
 [
   "}"
   "]"
   ")"
-] @indent.end
-
-[ "{" "}" ] @indent.branch
-
-[ "[" "]" ] @indent.branch
-
-[ "(" ")" ] @indent.branch
-
-[
-  (string)
-  (comment)
-  (ERROR)
-] @indent.auto
+] @outdent
